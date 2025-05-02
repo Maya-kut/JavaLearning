@@ -7,7 +7,9 @@ public class DataTypesOperations {
         int num1 = input.nextInt();
         System.out.println("Введите второе целое число: ");
         int num2 = input.nextInt();
-        if (num2!=0){
+        System.out.println("Введите число с плавающей точкой: ");
+        double num3 = input.nextDouble();
+        if (num2!=0 && num3!=0){
             System.out.println("Сумма чисел равна " + (num1 + num2));
             System.out.println("Разность чисел равна " + (num1 - num2));
             System.out.println("Результат целочисленного деления равен " + (num1 / num2));
@@ -17,8 +19,6 @@ public class DataTypesOperations {
             System.out.println(num1==num2);
             System.out.println(num1<=num2);
 
-            System.out.println("Введите число с плавающей точкой: ");
-            double num3 = input.nextDouble();
             System.out.println("Напомню, вы ввели числа: " + num1 + ", " + num2 + ", " + num3);
             System.out.println("Получим произведение трех введеных чисел: " + (num1 * num2 * num3));
             System.out.println("Разделим сумму первых на третье: " + ((num1 + num2) / num3));
