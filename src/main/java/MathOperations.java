@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class DataTypesOperations {
+public class MathOperations {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Введите первое целое число: ");
