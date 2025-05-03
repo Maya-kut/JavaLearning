@@ -15,9 +15,9 @@ public class MathOperations {
             System.out.println("Результат целочисленного деления равен " + (num1 / num2));
             System.out.println("Результат умножения равен " + (num1 * num2));
             System.out.println("Остаток от деления равен " + (num1 % num2));
-            System.out.println(num1>num2);
-            System.out.println(num1==num2);
-            System.out.println(num1<=num2);
+            System.out.println("Первое число больше второго? " + (num1>num2));
+            System.out.println("Числа равны? " + (num1==num2));
+            System.out.println("Первое число меньше или равно второму? " + (num1<=num2));
 
             System.out.println("Напомню, вы ввели числа: " + num1 + ", " + num2 + ", " + num3);
             System.out.println("Получим произведение трех введеных чисел: " + (num1 * num2 * num3));
